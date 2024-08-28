@@ -4,6 +4,8 @@ from pytubefix import YouTube
 import os
 from moviepy.editor import VideoFileClip, AudioFileClip
 
+YouTube.headers['User-Agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+
 app = Flask(__name__)
 CORS(app)
 
