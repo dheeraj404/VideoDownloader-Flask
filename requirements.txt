@@ -1,0 +1,4 @@
+Flask==2.2.2
+Flask-CORS==3.0.10
+pytube==12.1.0
+moviepy==1.0.3
